@@ -108,16 +108,11 @@ Follow these steps to run the app:
        "message": "Cantidad de items 1",
        "data": "[{\"id\":6,\"titulo\":\"Correr\",\"descripcion\":\"Correr todos los días\",\"state\":{\"typeStateId\":1,\"name\":\"pendiente\",\"updateDate\":\"Sep 6, 2023, 11:26:44 AM\",\"createDate\":\"Sep 5, 2023, 10:39:28 PM\",\"state\":true},\"createDate\":\"Sep 6, 2023, 2:28:55 PM\"}]"
        }
-* ###  SEARCH DATA
+* ###  BY DATA
    It is requested to search for data by any of these filters
-   patch: '/api/v1/search-task' 
+   patch: '/api/v1/by-task/{idTask}' 
    ######  Request body (JSON):
-      {
-      "id":1,
-      "titulo":"Correr",
-      "state":"1",
-      "createDate":"2023-09-05 22:39:28.455"
-      } 
+
    ######   Successful response (JSON):
       {
       "success": true,
