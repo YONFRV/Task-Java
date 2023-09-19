@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EntityScan({
-        "com.seeri.challenge.entitys"
+        "com.seeri.challenge.entities"
 })
 
 @EnableJpaRepositories({

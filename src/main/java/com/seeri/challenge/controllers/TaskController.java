@@ -36,9 +36,9 @@ public class TaskController {
     }
 
 
-    @PostMapping("/by-task")
-    public ResponseEntity<ResponseModel<String>> searchTask(@PathVariable long taskId) {
-        ResponseControllerModel response = iGetByTaskService.getByTaskService(taskId);
+    @GetMapping("/by-task/{idTask}")
+    public ResponseEntity<ResponseModel<String>> searchTask(@PathVariable long idTask) {
+        ResponseControllerModel response = iGetByTaskService.getByTaskService(idTask);
         return new ResponseEntity<>(response.getResponse(), HttpStatus.valueOf(response.getStatus()));
     }
 

@@ -1,6 +1,6 @@
 package com.seeri.challenge.repositorys;
 
-import com.seeri.challenge.entitys.TypeStateEntity;
+import com.seeri.challenge.entities.TypeStateEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

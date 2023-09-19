@@ -1,6 +1,6 @@
 package com.seeri.challenge.typestateService.getAllTypeStateService;
 
-import com.seeri.challenge.entitys.TypeStateEntity;
+import com.seeri.challenge.entities.TypeStateEntity;
 import com.seeri.challenge.models.ResponseControllerModel;
 import com.seeri.challenge.repositorys.TypeStateRepository;
 import com.seeri.challenge.services.typestateService.getAllTypeStateService.GetAllTypeStateService;

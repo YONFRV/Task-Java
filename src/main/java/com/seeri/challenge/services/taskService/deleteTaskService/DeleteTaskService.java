@@ -1,7 +1,7 @@
 package com.seeri.challenge.services.taskService.deleteTaskService;
 
 import com.google.gson.Gson;
-import com.seeri.challenge.entitys.TaskEntity;
+import com.seeri.challenge.entities.TaskEntity;
 import com.seeri.challenge.models.ResponseControllerModel;
 import com.seeri.challenge.repositorys.TaskRepository;
 import com.seeri.challenge.util.IUtil;
