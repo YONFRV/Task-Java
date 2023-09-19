@@ -1,0 +1,31 @@
+server:
+  port: 9003
+  tomcat:
+    accessors:
+      enabled: true
+spring:
+  devtools:
+    restart:
+      enabled: false
+  datasource:
+    url: jdbc:postgresql://localhost:5433/seeri
+    username: postgres #usuario base de datos
+    password: 1234 #contrase�a base de datos
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  jackson:
+    time-zone: America/Bogota
+    locale: es-Co
+  logging:
+    file:
+      path: ./logs/
+    pattern.file: '%d{dd-MM-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M - %msg%n'
+    logback:
+      rolling policy:
+        max-file-size: 10MB
+        max-history: 0
+
