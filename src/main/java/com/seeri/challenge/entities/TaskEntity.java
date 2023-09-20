@@ -1,4 +1,4 @@
-package com.seeri.challenge.entitys;
+package com.seeri.challenge.entities;
 
 import lombok.Getter;
 import lombok.Setter;

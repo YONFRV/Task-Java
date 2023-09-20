@@ -9,8 +9,8 @@ spring:
       enabled: false
   datasource:
     url: jdbc:postgresql://localhost:5433/seeri
-    username: postgres #usuario base de datos
-    password: 1234 #contrase�a base de datos
+    username: xxxx #usuario base de datos
+    password: xx #contrase�a base de datos
   jpa:
     hibernate:
       ddl-auto: update

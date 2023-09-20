@@ -1,8 +1,8 @@
 package com.seeri.challenge.services.taskService.putTaskService;
 
 import com.google.gson.Gson;
-import com.seeri.challenge.entitys.TaskEntity;
-import com.seeri.challenge.entitys.TypeStateEntity;
+import com.seeri.challenge.entities.TaskEntity;
+import com.seeri.challenge.entities.TypeStateEntity;
 import com.seeri.challenge.models.RequestDataTaskModel;
 import com.seeri.challenge.models.ResponseControllerModel;
 import com.seeri.challenge.repositorys.TaskRepository;

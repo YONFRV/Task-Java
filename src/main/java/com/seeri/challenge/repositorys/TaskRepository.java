@@ -1,7 +1,6 @@
 package com.seeri.challenge.repositorys;
 
-import com.seeri.challenge.entitys.TaskEntity;
-import org.springframework.data.jpa.domain.Specification;
+import com.seeri.challenge.entities.TaskEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

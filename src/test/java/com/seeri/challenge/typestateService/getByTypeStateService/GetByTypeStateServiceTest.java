@@ -1,8 +1,7 @@
 package com.seeri.challenge.typestateService.getByTypeStateService;
 
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.seeri.challenge.entitys.TypeStateEntity;
+import com.seeri.challenge.entities.TypeStateEntity;
 import com.seeri.challenge.models.ResponseControllerModel;
 import com.seeri.challenge.repositorys.TypeStateRepository;
 import com.seeri.challenge.services.typestateService.getByTypeStateService.GetByTypeStateService;
@@ -15,8 +14,6 @@ import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

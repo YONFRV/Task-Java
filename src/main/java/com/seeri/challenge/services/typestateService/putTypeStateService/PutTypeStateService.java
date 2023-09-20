@@ -1,7 +1,7 @@
 package com.seeri.challenge.services.typestateService.putTypeStateService;
 
 import com.google.gson.Gson;
-import com.seeri.challenge.entitys.TypeStateEntity;
+import com.seeri.challenge.entities.TypeStateEntity;
 import com.seeri.challenge.models.RequestBodyStateTypeModel;
 import com.seeri.challenge.models.ResponseControllerModel;
 import com.seeri.challenge.models.ResponseModel;
