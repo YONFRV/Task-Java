@@ -8,11 +8,11 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EntityScan({
-        "com.seeri.challenge.entities"
+        "com.seeri.challenge.entity"
 })
 
 @EnableJpaRepositories({
-        "com.seeri.challenge.repositorys"
+        "com.seeri.challenge.repository"
 })
 @ComponentScan(basePackages = {
         "com.seeri.challenge.*"

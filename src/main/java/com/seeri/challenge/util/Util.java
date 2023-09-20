@@ -1,7 +1,7 @@
 package com.seeri.challenge.util;
 
 
-import com.seeri.challenge.models.ResponseModel;
+import com.seeri.challenge.model.ResponseModel;
 import org.springframework.stereotype.Service;
 
 @Service

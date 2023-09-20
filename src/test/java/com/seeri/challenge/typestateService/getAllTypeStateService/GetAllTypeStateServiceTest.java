@@ -1,9 +1,9 @@
 package com.seeri.challenge.typestateService.getAllTypeStateService;
 
-import com.seeri.challenge.entities.TypeStateEntity;
-import com.seeri.challenge.models.ResponseControllerModel;
-import com.seeri.challenge.repositorys.TypeStateRepository;
-import com.seeri.challenge.services.typestateService.getAllTypeStateService.GetAllTypeStateService;
+import com.seeri.challenge.entity.TypeStateEntity;
+import com.seeri.challenge.model.ResponseControllerModel;
+import com.seeri.challenge.repository.TypeStateRepository;
+import com.seeri.challenge.service.typestateService.getAllTypeStateService.GetAllTypeStateService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
